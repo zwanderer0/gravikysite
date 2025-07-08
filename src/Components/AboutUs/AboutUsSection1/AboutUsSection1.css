@@ -84,4 +84,13 @@
   .aboutus-section1-textblock > p {
     font-size: 100%;
   }
+
+  .carbon-impact-statistic {
+    margin-top: 20px;
+    padding: 20px 15px;
+  }
+
+  .carbon-impact-statistic h2 {
+    font-size: 120%;
+  }
 }
