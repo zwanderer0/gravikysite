@@ -5,7 +5,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 var url = "https://www.youtube.com/watch?v=Dig_QFPPPtE";
 export default class AboutUsSection1 extends Component {
   state = {
-    innerWidth: window.innerWidth
+    innerWidth: window.innerWidth,
   };
   render() {
     return (
@@ -20,7 +20,10 @@ export default class AboutUsSection1 extends Component {
             height={this.state.innerWidth >= 500 ? "300px" : "200px"}
           />
         </div>
-        <ScrollAnimation animateIn="fadeIn" className="aboutus-section1-textblock">
+        <ScrollAnimation
+          animateIn="fadeIn"
+          className="aboutus-section1-textblock"
+        >
           <h1>Our Story</h1>
           <p>
             Graviky began as an MIT Media Lab experiment when we hacked together
@@ -29,16 +32,19 @@ export default class AboutUsSection1 extends Component {
             version of what is now AIR–INK<sup>®</sup>.
           </p>
           <p>
-            Later, with Heineken, we launched a global art campaign to create awareness
-            about climate change. Subsequently, we collaborated with hundreds of artists
-            to create a very successful kickstarter campaign.
+            Later, with Heineken, we launched a global art campaign to create
+            awareness about climate change. Subsequently, we collaborated with
+            hundreds of artists to create a very successful kickstarter
+            campaign.
           </p>
           <p>
-            Now, we
-            are a dedicated team working to change industrial production
+            Now, we are a dedicated team working to change industrial production
             with forays into packaging, apparel printing, and advanced
             materials.
           </p>
+          <div className="carbon-impact-statistic">
+            <h2>85-90% reduction in printing carbon impact</h2>
+          </div>
         </ScrollAnimation>
       </div>
     );
