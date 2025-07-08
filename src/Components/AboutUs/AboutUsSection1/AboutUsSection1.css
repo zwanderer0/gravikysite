@@ -25,24 +25,6 @@
   line-height: 150%;
 }
 
-.environmental-impact-highlight {
-  margin-top: 30px;
-  padding: 25px;
-  background: linear-gradient(135deg, #2c5530 0%, #3a7540 100%);
-  border-radius: 12px;
-  text-align: center;
-  box-shadow: 0 4px 15px rgba(44, 85, 48, 0.3);
-}
-
-.environmental-impact-highlight h2 {
-  color: #ffffff;
-  font-family: "JosefinBold";
-  font-size: 160%;
-  margin: 0;
-  line-height: 130%;
-  letter-spacing: 0.5px;
-}
-
 @media screen and (max-width: 900px) {
   .aboutus-section1-container {
     flex-direction: column-reverse;
