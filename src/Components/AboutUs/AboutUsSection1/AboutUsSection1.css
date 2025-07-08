@@ -82,4 +82,13 @@
   .aboutus-section1-textblock > p {
     font-size: 100%;
   }
+
+  .impact-metric {
+    margin-top: 15px;
+    padding: 15px;
+  }
+
+  .impact-stat {
+    font-size: 105%;
+  }
 }
