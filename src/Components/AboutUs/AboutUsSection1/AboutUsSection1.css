@@ -46,10 +46,6 @@
     text-align: center;
     padding-bottom: 5%;
   }
-
-  .environmental-impact-highlight h2 {
-    font-size: 140%;
-  }
 }
 
 @media screen and (max-width: 500px) {
