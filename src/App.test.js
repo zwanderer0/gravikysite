@@ -1,9 +1,17 @@
-import React from 'react';
-import { render } from '@testing-library/react';
-import App from './App';
+import React from "react";
+import { render } from "@testing-library/react";
+import { Provider } from "react-redux";
+import { createStore, applyMiddleware } from "redux";
+import thunk from "redux-thunk";
+import Reducer from "./reducer/reducer";
+import App from "./App";
 
-test('renders learn react link', () => {
-  const { getByText } = render(<App />);
-  const linkElement = getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+const store = createStore(Reducer, applyMiddleware(thunk));
+
+test("renders without crashing", () => {
+  render(
+    <Provider store={store}>
+      <App />
+    </Provider>,
+  );
 });
