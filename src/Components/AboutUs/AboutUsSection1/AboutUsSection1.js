@@ -42,6 +42,11 @@ export default class AboutUsSection1 extends Component {
             with forays into packaging, apparel printing, and advanced
             materials.
           </p>
+          <div className="impact-metric">
+            <p className="impact-stat">
+              85-90% reduction in printing carbon impact.
+            </p>
+          </div>
         </ScrollAnimation>
       </div>
     );
