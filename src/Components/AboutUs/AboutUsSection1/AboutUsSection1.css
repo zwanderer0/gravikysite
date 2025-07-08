@@ -25,6 +25,22 @@
   line-height: 150%;
 }
 
+.impact-metric {
+  margin-top: 25px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-left: 4px solid #28a745;
+  border-radius: 4px;
+}
+
+.impact-stat {
+  font-family: "JosefinBold";
+  color: #28a745;
+  font-size: 110%;
+  margin: 0;
+  font-weight: bold;
+}
+
 @media screen and (max-width: 900px) {
   .aboutus-section1-container {
     flex-direction: column-reverse;
